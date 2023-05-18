@@ -100,7 +100,15 @@ border-radius:30%;
 
 }
 .links a {
+  text-decoration: none;
+  color: inherit;
   font-size: 35px;
   margin-bottom: 50px;
 }
 
+.whatsapp:hover {
+  color:#ff5a00;
+  cursor: pointer;
+
+
+}
