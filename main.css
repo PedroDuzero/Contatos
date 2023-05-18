@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: linear-gradient(to bottom, rgba(255, 197, 40, 0.5), rgba(255, 90, 0, 0.5));
+  }
 #banner-top {
     position: relative;
     width: 100%;
@@ -10,6 +14,7 @@
     background-color: #ff5a00;
     box-sizing: border-box;
     display: flex;
+  
 
 }
 #logo {
@@ -23,25 +28,79 @@
     align-self: top;
     justify-content:center;
     height: 140px;
+    padding: 0.5rem 1rem;
   }
-  #logo img {
+  #logo {
 
     max-width: 100%;
     max-height: 100%;
+   
   }
-  #banner-top h1 {
-    /*Loja Duzero*/
-    position: relative;
-    align-self: center;
-    left:30px;
-    display: flex;
+  
+  #banner-top span {
+position: absolute;
+margin-right:250px;
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+text-align: center;
+
     color: #ffff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
-    flex-direction: column;
-    align-items: center;
+
   }
-  .loja, .duzero {
-  display: block;
-  }
+  #piripiri-piaui {
   
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  margin-left: 50px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(68, 68, 68);
+
+  }
+#piaui-brasil {
+ margin-top: 5px;
+  height: 50px;
+}
+
+#dois {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+   
+}
+
+.conectese {
+  display: flex;
+  justify-content: center;
+
+  height: 40px;
+ 
+  align-items: center;
+
+font-size: 25px;
+color: aliceblue;
+text-shadow: 2px 2px 4px #ff5a00;
+font-family: 'Roboto', sans-serif;
+margin-top: 35px;
+background-color: rgba(32, 32, 32, 0.5);
+border-radius:30%;
+
+}
+
+.links {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+.links a {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
